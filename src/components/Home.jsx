@@ -11,20 +11,26 @@ import stripe from "../assets/images/stripe.png";
 import monday from "../assets/images/monday.png";
 import slack from "../assets/images/slack.png";
 import dropbox from "../assets/images/dropbox.png";
+import arrowVector from "../assets/images/arrowVector.png";
 
 const Home = () => {
-
   return (
     <>
       <div
         id="home"
         className="bg-bgBlue flex flex-col md:w-[100%] w-full md:flex-row md:items-center md:justify-center p-4 md:h-[925px] sm:h-auto "
       >
-        <div className="order-2 md:order-2 mx-auto w-[90%]">
+        <div className="order-2 md:order-2 mx-auto w-[90%] relative">
           <img
             src={hero2}
             alt="Hero"
             className="w-full h-auto md:max-w-md mx-auto md:mx-0"
+          />
+          <img
+            src={arrowVector}
+            alt="Hero"
+            className="absolute md:w-[111.08px] md:h-[222.87px] md:left-[-13.23%] md:top-[48.42%] md:bottom-[7.49%] text-white
+             w-[54px] h-[109px] left-[87.41%] right-[10.88%] top-[-6.15%] bottom-[56.15%] arrow"
           />
         </div>
         <div className="order-1 mx-auto mt-20 w-full ">

@@ -27,3 +27,18 @@ div.preview:hover {
 }
 
 
+@font-face {
+  font-family: 'Amazing Kids';
+  src: url('src/assets/AmazingKids.ttf');
+}
+
+.brand-name {
+  font-family: 'Amazing Kids', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  /* other styles */
+}
+
+.arrow {
+  transform: matrix(1, -0.11, -0.27, 1, 7, 1);
+}

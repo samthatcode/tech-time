@@ -12,7 +12,7 @@ import person10 from "../assets/images/person10.png";
 
 const Community = () => {
   return (
-    <div id="community" class="bg-[#004DB3] py-10  ">
+    <div id="community" class="bg-[#004DB3] py-10 ">
       <div class="container mx-auto px-4 md:px-40">
         <div class="text-center">
           <p class="uppercase font-[500] text-white">join our community</p>
@@ -23,7 +23,7 @@ const Community = () => {
             meet up with other techstars and grow together
           </div>
         </div>
-        <div class="mt-7 md:w-[983px] w-[291.73px] h-[207.12px] h-full md:h-[519.74px] border border-indigo-500 relative mx-auto">
+        <div class="mt-7 md:w-[983px] w-[291.73px] h-[207.12px] md:h-[519.74px] border border-indigo-500 relative mx-auto">
           <div class="rounded-full">
             <img
               src={person1}

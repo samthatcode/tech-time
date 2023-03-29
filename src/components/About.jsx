@@ -137,7 +137,7 @@ const About = () => {
       </div>
 
       <div className="bg-[#F8F9FC] h-fit w-full gap-8 flex flex-col md:flex-row md:items-center md:justify-center p-4">
-        <div className="mt-[125px] flex flex-col md:flex-row md:items-center md:justify-center lg:mt-[-250px]">
+        <div className="mt-[125px] flex flex-col md:flex-row md:items-center md:justify-center md:mt-[-250px]">
           <div className="order-1 md:order-1 m-8 ">
             <div className=" text-center">
               <div className="capitalize font-bold text-4xl mb-4">
@@ -154,8 +154,8 @@ const About = () => {
             </div>
           </div>
           <div className="order-1 m-8 h-full ">
-            <div className="flex gap-4 flex-row">
-              <div className="bg-white rounded-[8px] mb-8 p-4 lg:w-[307px] lg:h-[202px] w-1/2 ">
+            <div className="flex gap-4 md:flex-row flex-col ">
+              <div className="bg-white rounded-[8px] mb-4 p-4 md:w-[307px] md:h-[202px] w-full ">
                 <div className="">
                   <img
                     src={expmentors}
@@ -171,7 +171,7 @@ const About = () => {
                   definition.
                 </div>
               </div>
-              <div className="bg-white rounded-[8px] mb-8  p-4 lg:w-[307px] lg:h-[202px] w-1/2">
+              <div className="bg-white rounded-[8px] mb-8  p-4 md:w-[307px] md:h-[202px] w-full">
                 <div className="">
                   <img
                     src={onemeetings}
@@ -188,8 +188,8 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-4 flex-row">
-              <div className="bg-white rounded-[8px] mb-8  p-4 lg:w-[307px] lg:h-[202px] w-1/2">
+            <div className="flex gap-4 md:flex-row flex-col">
+              <div className="bg-white rounded-[8px] mb-4  p-4 md:w-[307px] md:h-[202px] w-full">
                 <div className="">
                   <img
                     src={onemeetingsgroup}
@@ -205,7 +205,7 @@ const About = () => {
                   definition.
                 </div>
               </div>
-              <div className="bg-white rounded-[8px] mb-8  p-4 lg:w-[307px] lg:h-[202px] w-1/2 ">
+              <div className="bg-white rounded-[8px] mb-4  p-4 md:w-[307px] md:h-[202px] w-full ">
                 <div className="">
                   <img
                     src={affordprices}

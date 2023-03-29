@@ -13,53 +13,54 @@ const Navbar = () => {
     <>
       <nav className="bg-bgBlue  text-white top-0 fixed md:w-full w-full z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-[100px] ">
-            <div className="flex items-center text-gray-200">
-              <a href="#home" 
-                onclick={() => scrollToSection('home')}
-                className="text-white hover:text-gray-300 font-bold "
-                activeClassName="font-bold"
+          <div className="flex items-center  justify-between h-[100px] ">
+            <div className="flex  items-center text-gray-200 ">
+              <a
+                href="#home"
+                onclick={() => scrollToSection("home")}
+                className="text-white hover:text-gray-300 font-bold brand-name md:mr-[35rem]"
               >
                 TechTime
               </a>
-              <div className="hidden md:block">
-                <div className="ml-[40rem]  flex items-baseline space-x-4">
+              <div className="hidden md:block flex-grow  ">
+                <div className="flex  items-baseline justify-end space-x-4">
                   <a
-                    href="#home" 
+                    href="#home"
+                    active
                     smooth="true"
-                    onclick={() => scrollToSection('home')}
-                    className="hover:text-white"
+                    onclick={() => scrollToSection("home")}
+                    className="hover:text-white font-bold"
                   >
                     Home
                   </a>
                   <a
-                  href="#about" 
-                  smooth="true"
-                  onclick={() => scrollToSection('about')}
+                    href="#about"
+                    smooth="true"
+                    onclick={() => scrollToSection("about")}
                     className="hover:text-white"
                   >
                     About
                   </a>
                   <a
                     href="#courses"
-                    smooth="true" 
-                    onclick={() => scrollToSection('courses')}
+                    smooth="true"
+                    onclick={() => scrollToSection("courses")}
                     className="hover:text-white"
                   >
                     Courses
                   </a>
                   <a
-                    href="#testimonials" 
+                    href="#testimonials"
                     smooth="true"
-                    onclick={() => scrollToSection('testimonials')}
+                    onclick={() => scrollToSection("testimonials")}
                     className="hover:text-white"
                   >
                     Testimonials
                   </a>
                   <a
-                    href="#community" 
+                    href="#community"
                     smooth="true"
-                    onclick={() => scrollToSection('community')}
+                    onclick={() => scrollToSection("community")}
                     className="hover:text-white"
                   >
                     Community
@@ -119,41 +120,41 @@ const Navbar = () => {
         <div className={`${isOpen ? "block" : "hidden"} md:hidden`}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-             href="#home" 
-             smooth="true"
-             onclick={() => scrollToSection('home')}
+              href="#home"
+              smooth="true"
+              onclick={() => scrollToSection("home")}
               className="block px-3 py-2 rounded-md text-white hover:bg-gray-400"
             >
               Home
             </a>
             <a
-              href="#about" 
+              href="#about"
               smooth="true"
-              onclick={() => scrollToSection('about')}
+              onclick={() => scrollToSection("about")}
               className="block px-3 py-2 rounded-md text-white hover:bg-gray-400"
             >
               About
             </a>
             <a
-              href="#courses" 
+              href="#courses"
               smooth="true"
-              onclick={() => scrollToSection('courses')}
+              onclick={() => scrollToSection("courses")}
               className="block px-3 py-2 rounded-md text-white hover:bg-gray-400"
             >
               Courses
             </a>
             <a
-              href="#testimonials" 
+              href="#testimonials"
               smooth="true"
-              onclick={() => scrollToSection('testimonials')}
+              onclick={() => scrollToSection("testimonials")}
               className="block px-3 py-2 rounded-md text-white hover:bg-gray-400"
             >
               Testimonials
             </a>
             <a
-              href="#community" 
+              href="#community"
               smooth="true"
-              onclick={() => scrollToSection('community')}
+              onclick={() => scrollToSection("community")}
               className="block px-3 py-2 rounded-md text-white hover:bg-gray-400"
             >
               Community
@@ -169,7 +170,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      
     </>
   );
 };
